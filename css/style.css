@@ -56,7 +56,7 @@ body{
 .main {
 }
 .main__up {
-    padding: var(--space-layout-padding-main);
+    padding: var(--space-layout-padding-main-up);
 }
 .article__information {
     color: var(--color-1);
@@ -105,25 +105,108 @@ body{
     width: 142px;
     height: 24px;
 }
+
+/* 2 Sección */
 .main__down {
+    width: 375px;
+    background: var(--color-1);
+    border-radius: 40px 40px 0 0;
+    padding: var(--space-layout-padding-main-down);
+}
+.main__down h2{
+    font-size: 22px;
+    font-family: "SP Bold";
+    font-weight: 100;
+    color: var(--color-2);
+    margin-bottom: 10px;
+
 }
 .options {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: scroll;
 }
-.account {
-}
-.privacy {
-}
+.account,
+.privacy,
 .help {
+    min-width: 110px;
+    min-height: 140px;
+    background: var(--color-1);
+    box-shadow: 0 50px rgba(51, 64, 79, 0.15);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.account p,
+.privacy p,
+.help p{
+    font-size: 15px;
+    font-family: "SP SemiBold";
+    font-weight: 100;
+    color: var(--color-2);
 }
 .flows {
+    overflow-y: scroll;
+    
 }
 .move {
+    display: flex;
+    flex-direction: column;
 }
 .left {
+    display: flex;
+    flex-direction: row;
+    padding: var(--space-layout-padding-main-down-left);
 }
 .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.info h3,
+.right h3{
+    width: 127px;
+    font-size: 15px;
+    font-family: "SP Bold";
+    font-weight: 100;
+}
+.info small,
+.right small{
+    font-size: 11px;
+    font-family: "SP Medium";
+    font-weight: 100;
+    opacity: 40%;
 }
 .right {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-left: 10px;
 }
+
+/* Footer */
 .imgs {
+    width: 366px;
+    height: 89px;
+    background: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+    padding: var(--space-layout-padding-footer);
 }
+.imgs img{
+    background: red;
+    width: 35px;
+    height: 55px;
+}
+#log{
+    margin-top: 10px;
+}
+
