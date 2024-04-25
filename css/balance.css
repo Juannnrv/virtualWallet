@@ -1,0 +1,339 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSands-Regular";
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    padding: var(--space-layout-padding-header);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__circle {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 415px;
+    height: 250px;
+    z-index: -1;
+}
+.header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__left h1 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-family: "Poppins Bold";
+    color: var(--color-1);
+    display: flex;
+    padding-left: 20px;
+}
+.header__left img{
+    width: 50px;
+    height: 50px;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right img {
+    /* background: red; */
+    width: 20px;
+    height: 20px;
+}
+
+/* Main */
+.main {
+    position: relative;
+    height: 105vh;
+}
+/* Main_up */
+.main_up {
+    padding: var(--space-layout-padding-main-up)
+}
+.article_circle{
+    background: var(--color-3);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 80px 30px 80px;
+    transition: transform 0.5s ease;
+}
+.circle__info {
+    display: flex;	
+    flex-direction: column;
+    gap: 1px;
+    text-align: center;
+    padding-top: 45px;
+}
+.circle__info h2{
+    font-size: 23px;
+    font-family: "Poppins Bold";
+    color: var(--color-1);
+}
+.circle__info small {
+    font-family: "Poppins Bold";
+    color: var(--color-1);
+}
+.article_circle:hover {
+    transform: rotate(360deg);
+}
+.article_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    margin: 0 8px 0 8px;
+}
+.options__Assets {
+    background: var(--color-2);
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+.options__Assets h2{
+    font-size: 15px;
+    font-family: "Poppins Regular";
+    color: var(--color-1);
+}
+.options__Debt {
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid var(--color-3);
+    border-radius: 60px;
+}
+.options__Debt h2{
+    font-size: 15px;
+    font-family: "Poppins Regular";
+    color: var(--color-3);
+}
+.options__Income {
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid var(--color-4);
+    border-radius: 60px;
+}
+.options__Income h2{
+    font-size: 15px;
+    font-family: "Poppins Regular";
+    color: var(--color-4);
+}
+
+/* Main down */
+.main_down img{
+    margin-bottom: 20px;
+}
+.article__graphic {
+    padding: var(--space-layout-padding-balance-main-down);
+    display: flex;
+    flex-direction: column;
+    background: var(--color-1);
+    padding: 10px 10px 0 10px;
+    border-radius: 20px;
+    margin: 0 20px 10px 20px;
+}
+.graphic__days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.graphic__days p{
+    font-size: 15px;
+    font-family: "Poppins Medium";
+    color: var(--color-2);
+}
+.article__spending {
+    display: flex;
+    flex-direction: row;
+    background: var(--color-3);
+    padding: 15px 20px 0 5px;
+}
+.spending__card img{
+    margin-top: 12px;
+    width: 104px;
+    height: 95px;
+}
+.spending__info {
+    margin: 22px 0 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.spending__info h2{
+    font-size: 20px;
+    font-family: "Poppins Bold";
+    color: var(--color-2);
+}
+.spending__info small {
+    width: 220px;
+    font-size: 13px;
+    font-family: "Poppins Regular";
+    color: var(--color-1);
+}
+.spending__cancel img{
+    width: 32px;
+    height: 32px;
+}
+
+
+/* Footer */
+.footer__imgs {
+    background: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--space-layout-padding-footer);
+    position: fixed;
+    /* top: 722px; */
+    bottom: 0;
+    width: 420px;
+}
+.footer__imgs img{
+    width: 30px;
+    height: 40px;
+}
+.imgs__selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgs__selected img {
+    width: 30px;
+    height: 30px;
+}
+#puntico{
+    width: 8px;
+    height: 8px;
+    margin-top: 3.5px;
+}
+
+/* Container for responsive design */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Responsive styles for desktop */
+@media (min-width: 768px) {
+
+    .container {
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header__circle {
+        width: 600px;
+        height: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header__left h1 {
+        font-size: 24px;
+        color: var(--color-2);
+    }
+    .header__left img {
+        width: 70px;
+        height: 70px;
+    }
+    .header__right img {
+        width: 30px;
+        height: 30px;
+    }
+    .main {
+        height: auto;
+    }
+    .main_up {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .article_circle {
+        width: 300px;
+        height: 280px;
+        transform: translateX(230%);
+    }
+    .circle__info {
+        padding-top: 70px;
+    }
+    .circle__info h2 {
+        font-size: 30px;
+    }
+    .article_options {
+        align-items: center;
+    }
+    .options__Assets, .options__Debt, .options__Income {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .options__Assets h2, .options__Debt h2, .options__Income h2 {
+        font-size: 20px;
+    }
+    .main_down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .article__graphic, .article__spending {
+        width: 60%;
+        margin-bottom: 100px; /* Ensure spacing between sections */
+    }
+    .article__graphic {
+        padding: 20px;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .graphic__days p {
+        font-size: 18px;
+    }
+    .article__spending {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 40px;
+        background: var(--color-3);
+        margin-bottom: 80px;
+        width: 90%;
+    }
+    .spending__card img {
+        margin-top: 12px;
+        width: 154px;
+        height: 152px;
+    }
+    .spending__info {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        gap: 5px;
+    }
+    .spending__info h2 {
+        width: 100%;
+        font-size: 54px;
+    }
+    .spending__info small {
+        width: 100%;
+        font-size: 36px;
+    }
+    .spending__cancel img {
+        width: 52px;
+        height: 52px;
+    }
+    .footer__imgs {
+        width: 100%;
+    }
+}
