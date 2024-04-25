@@ -6,3 +6,124 @@
     font-family: "EncodeSands-Regular";
     box-sizing: border-box;
 }
+
+body{
+    background: var(--color-2);
+    background-image: url(../storage/img/background.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* Header */
+.header {
+    padding: var(--space-layout-padding-header);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__left h1 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: "SP Bold";
+    color: var(--color-1);
+    display: flex;
+    padding-left: 20px;
+}
+.header__left img{
+    width: 30px;
+    height: 30px;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right img {
+    /* background: red; */
+    width: 20px;
+    height: 20px;
+}
+
+/* Main */
+.main {
+}
+.main__up {
+    padding: var(--space-layout-padding-main);
+}
+.article__information {
+    color: var(--color-1);
+}
+.article__information p{
+    font-size: 35px;
+    font-family: "SP Heavy";
+    margin-bottom: 5px;
+}
+.article__information h4{
+    font-size: 31px;
+    font-weight: 500;
+    font-family: "SP Light";
+    margin-bottom: 28px;
+}
+.article__money {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.article__money h2{
+    font-size: 14px;
+    font-family: "SP Medium";
+    font-weight: 100;
+    color: var(--color-1);
+    margin-bottom: 7px;
+}
+.article__money p{
+    font-size: 24px;
+    font-family: "Roboto Bold";
+    font-weight: 100;
+    color: var(--color-1);
+}
+.assets h2,
+.assets p{
+    margin-left: 9px;
+}
+.article__money small{
+    font-size: 14px;
+    font-family: "Roboto Bold";
+    font-weight: 100;
+    color: var(--color-1);
+}
+.savings img,
+.assets img{
+    width: 142px;
+    height: 24px;
+}
+.main__down {
+}
+.options {
+}
+.account {
+}
+.privacy {
+}
+.help {
+}
+.flows {
+}
+.move {
+}
+.left {
+}
+.info {
+}
+.right {
+}
+.imgs {
+}

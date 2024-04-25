@@ -3,6 +3,10 @@
     --color-2: #33404F;
     --color-3: #00DDA3;
     --color-4: #B5C5C3;
+
+    --space-layout-padding-header: 25px 20px;
+    --space-layout-padding-main: 25px 20px;
+
 }
 
 /* Index */
