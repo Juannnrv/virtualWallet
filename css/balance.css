@@ -1,0 +1,8 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSands-Regular";
+    box-sizing: border-box;
+}
