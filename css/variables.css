@@ -1,0 +1,89 @@
+:root {
+
+    /* Figma Colors */
+    /* --color-1: white;
+    --color-2: #33404F;
+    --color-3: #00DDA3;
+    --color-4: #B5C5C3;
+    --color-5: #E1FFEF; */
+
+    /* My Colors */
+    --color-1: #F0F2F2;
+    --color-2: #014017;
+    --color-3: #95BFA4;
+    --color-4: #077336;
+    --color-5: #00DDA3;
+    --color-6: #64EB7E;
+
+    /* Home */
+    --space-layout-padding-header: 0 20px 5px 20px;
+    --space-layout-padding-main-up: 0 20px 10px 20px;
+    --space-layout-padding-main-down: 40px 20px 5px 20px;
+    --space-layout-padding-main-down-flows: 15px 6px;
+    --space-layout-padding-footer: 15px 30px 10px 15px;
+
+    /* Cards */
+    --space-layout-padding-cards-main-up: 5px 0px 5px 0px;
+    --space-layout-padding-cards-main-down: 5px 0px 5px 20px;
+
+    /* Balance */
+    --space-layout-padding-balance-main-down: 10px 34px 5px 31px;
+}
+
+/* Figma fonts */
+@font-face {
+    font-family: "SP Bold";
+    src: url(../storage/font/SF-Pro-Text-Bold.otf);
+}
+@font-face {
+    font-family: "SP SemiBold";
+    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
+}
+@font-face {
+    font-family: "SP Heavy";
+    src: url(../storage/font/SF-Pro-Text-Heavy.otf);
+}
+@font-face {
+    font-family: "SP Light";
+    src: url(../storage/font/SF-Pro-Text-Light.otf);
+}
+@font-face {
+    font-family: "SP Medium";
+    src: url(../storage/font/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+    font-family: "SP Regular";
+    src: url(../storage/font/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../storage/font/Roboto-Bold.ttf);
+}
+
+
+/* My fonts */
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url(../storage/font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins Black";
+    src: url(../storage/font/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: "Poppins Light";
+    src: url(../storage/font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(../storage/font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}

@@ -1,0 +1,328 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSands-Regular";
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-2);
+    background-image: url(../storage/img/fondogreen.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: -2;
+    background-size: cover;
+}
+
+/* Header */
+.header {
+    padding: var(--space-layout-padding-header);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__left h1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: "Poppins Bold";
+    color: var(--color-1);
+    display: flex;
+    padding-left: 20px;
+}
+.header__left img{
+    width: 50px;
+    height: 50px;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right img {
+    /* background: red; */
+    width: 20px;
+    height: 20px;
+}
+
+/* Main */
+.main {
+}
+.main__up {
+    padding: var(--space-layout-padding-main-up)
+}
+.article__information {
+    color: var(--color-1);
+}
+.article__information p{
+    font-size: 35px;
+    font-family: "Poppins Black";
+    margin-bottom: 8px;
+}
+/* .article__information h4{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Poppins Light";
+    margin-bottom: 10px;
+} */
+.article__money {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.article__money h2{
+    font-size: 16px;
+    font-family: "Poppins Medium";
+    font-weight: 100;
+    color: var(--color-1);
+    margin-bottom: 7px;
+}
+.article__money p{
+    font-size: 25px;
+    font-family: "Roboto Bold";
+    font-weight: 100;
+    color: var(--color-1);
+}
+.money__available h2,
+.money__debt h2 {
+    font-family: "Poppins Bold";
+    color: var(--color-6);
+}
+.money__debt h2,
+.money__debt p{
+    margin-left: 9px;
+}
+.article__money small{
+    font-size: 15px;
+    font-family: "Roboto Bold";
+    font-weight: 100;
+    color: var(--color-1);
+    margin-bottom: 5px;
+}
+.money__available img,
+.money__debt img{
+    width: 150px;
+    height: 24px;
+}
+
+/* 2 Sección */
+.main__down {
+    width: 415px;
+    background: var(--color-1);
+    border-radius: 40px 40px 0 0;
+    padding: var(--space-layout-padding-main-down);
+    margin-bottom: 80px;
+    overflow-y: hidden;
+}
+.main__down h2{
+    font-size: 22px;
+    font-family: "Poppins Bold";
+    font-weight: 100;
+    color: var(--color-2);
+    margin-bottom: 10px;
+    
+}
+.article__options {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+.article__options div {
+    transition: transform 0.3s ease;
+}
+.article__options div:hover,
+.article__options div:focus {
+    transform: scale(1.1);
+    background: var(--color-3);
+}
+.options__pay,
+.options__bill,
+.options__help,
+.options__safebox,
+.options__add {
+    transition-duration: 0.3s;
+    min-width: 111px;
+    min-height: 140px;
+    background: var(--color-1);
+    box-shadow: 0 0 7px 0 rgb(51 64 79 / 15%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.options__pay p,
+.options__bill p,
+.options__help p,
+.options__safebox p,
+.options__add p{
+    font-size: 15px;
+    font-family: "Poppins SemiBold";
+    font-weight: 100;
+    color: var(--color-2);
+}
+.article__options img {
+    width: 60%;
+}
+.article__flows {
+    overflow-y: scroll;
+    height: 53vh;
+}
+.flows__move {
+    display: flex;
+    flex-direction: column;
+}
+.flows__move--left {
+    display: flex;
+    flex-direction: row;
+    padding: var(--space-layout-padding-main-down-flows);
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.info h3,
+.flows__move--right h3{
+    width: 130px;
+    font-size: 15px;
+    font-family: "Poppins Bold";
+    font-weight: 100;
+}
+.info small,
+.flows__move--right small{
+    font-size: 11px;
+    font-family: "Poppins Medium";
+    font-weight: 100;
+    opacity: 40%;
+}
+.flows__move--right {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-left: 50px;
+}
+.view {
+    margin: auto;
+}
+.view h2 {
+    color: var(--color-4);
+}
+
+/* Footer */
+.footer__imgs {
+    background: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--space-layout-padding-footer);
+    position: fixed;
+    bottom: 0;
+    width: 100vw; /* Ensure the footer fills the entire viewport width */
+    left: 0; /* Align the footer to the left edge */
+}
+.footer__imgs img{
+    width: 30px;
+    height: 40px;
+}
+.imgs__selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#log{
+    margin-top: 10px;
+}
+#puntico{
+    width: 9px;
+    height: 9px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-size: 100%;
+    }
+    .container {
+        max-width: 50%;
+    }
+    .header__left h1 {
+        font-size: 24px;
+    }
+    .header__left img {
+        width: 60px;
+        height: 60px;
+    }
+    .header__right img {
+        width: 24px;
+        height: 24px;
+    }
+    .article__information p {
+        font-size: 40px;
+    }
+    .article__money {
+        gap: 80px;
+    }
+    .money__available img,
+    .money__debt img {
+        width: 180px;
+        height: 28px;
+    }
+    .main__down {
+        width: 100%;
+        padding: 40px;
+    }
+    .article__options {
+        gap: 20px;
+        padding-top: 10px;
+    }
+    .options__pay,
+    .options__bill,
+    .options__help,
+    .options__safebox,
+    .options__add {
+        min-width: 150px;
+        min-height: 180px;
+    }
+    .article__flows {
+        height: 60vh;
+        width: 100%;
+    }
+    .flows__move { 
+        align-items: center;
+     }
+    .flows__move--left {
+        padding: 20px;
+    }
+    .flows__move--right {
+        margin-left: 80px;
+    }
+    .footer__imgs {
+        width: 100%;
+        border-radius: 10px;
+        margin: 0 40px;
+    }
+    .footer__imgs img {
+        width: 35px;
+        height: 45px;
+    }
+}
+
