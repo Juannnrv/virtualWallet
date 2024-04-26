@@ -121,6 +121,7 @@
 /* Main down */
 .main_down {
     padding: var(--space-layout-padding-main-down);
+    margin-bottom: 80px;
 }
 .cards {
     /* width: 720px; */
@@ -128,10 +129,11 @@
     overflow-x: scroll;
     gap: 20px;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 .cards__content1 {
-    width: 212px;
-    height: 311px;
+    min-width: 212px;
+    min-height: 311px;
     display: flex;
     flex-direction: column;
     background: var(--color-2);
@@ -169,8 +171,8 @@
     height: 30px;
 }
 .cards__content2 {
-    width: 212px;
-    height: 311px;
+    min-width: 212px;
+    min-height: 311px;
     display: flex;
     flex-direction: column;
     background: var(--color-2);
@@ -205,12 +207,37 @@
     color: var(--color-1);
 }
 .cards__content2 img{
-    width: 50px;
-    height: 40px;
+    width: 40px;
+    height: 32px;
+}
+#visa{
+    width: 55px;
+    height: 30px;
 }
 
 /* Footer */
 .imgs {
+    background: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--space-layout-padding-footer);
+    position: fixed;
+    /* top: 722px; */
+    bottom: 0;
+    width: 420px;
 }
-.selected {
+.imgs img{
+    width: 30px;
+    height: 40px;
+}
+.selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#puntico{
+    width: 9px;
+    height: 9px;
 }
