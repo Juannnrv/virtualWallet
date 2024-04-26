@@ -6,3 +6,127 @@
     font-family: "EncodeSands-Regular";
     box-sizing: border-box;
 }
+
+/* Header */
+.header {
+    padding: var(--space-layout-padding-header);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__left h1 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: "SP Bold";
+    color: var(--color-2);
+    display: flex;
+    padding-left: 20px;
+}
+.header__left img{
+    width: 23px;
+    height: 23px;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right img {
+    /* background: red; */
+    width: 20px;
+    height: 20px;
+}
+
+/* Main */
+/* Main_up */
+.main{
+}
+.main_up {
+    padding: var(--space-layout-padding-main-up);
+    margin: 8px 0 2px 0;
+}
+.main_up h2,
+.main_down h2 {
+    font-size: 22px;
+    font-family: "SP Bold";
+    font-weight: 100;
+    color: var(--color-2);
+    margin-bottom: 18px;
+}
+.scopes {
+    width: 362px;
+    height: 145px;
+    background: var(--color-1);
+    box-shadow: 0 0 7px 0 rgb(51 64 79 / 15%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 22px;
+    border-radius: 20px;
+}
+.piggy img{
+    position: absolute;
+    top: 125px;
+    left: 21px;
+    width: 200px;
+    height: 150px;
+    background: var(--color-5);
+    border-radius: 40px 80px 80px 40px;
+    padding: 10px;
+}
+.main_up img {
+    width: 93px;
+}
+.Info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Info h3 {
+    font-size: 18px;
+    font-family: "SP Bold";
+    font-weight: 100;
+    color: var(--color-2);
+}
+.Info p{
+    font-size: 14px;
+    font-family: "SP Regular";
+    color: var(--color-2);
+    opacity: 50%;
+}
+.Info a {
+    width: 117px;
+    height: 30px;
+    background: var(--color-3);
+    border-radius: 15px;
+    color: var(--color-1);
+    font-size: 10px;
+    font-family: "SP Bold";
+    font-weight: 100;
+    text-decoration: none;
+    padding: 9px 25px 9px 25px;
+}
+.cancel img{
+    width: 24px;
+    height: 24px;
+}
+
+/* Main down */
+.main_down {
+    padding: var(--space-layout-padding-main-down);
+}
+.cards {
+}
+.cards__info {
+}
+.imgs {
+}
+.selected {
+}
