@@ -197,6 +197,10 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: var(--space-layout-padding-footer);
+    position: fixed;
+    /* top: 722px; */
+    bottom: 0;
+    width: 420px;
 }
 .imgs img{
     width: 30px;
