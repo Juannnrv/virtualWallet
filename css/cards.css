@@ -123,7 +123,7 @@
     padding: var(--space-layout-padding-main-down);
     margin-bottom: 80px;
 }
-.cards {
+.article__cards {
     /* width: 720px; */
     display: flex;
     overflow-x: scroll;
@@ -216,7 +216,7 @@
 }
 
 /* Footer */
-.imgs {
+.footer__imgs {
     background: var(--color-2);
     display: flex;
     flex-direction: row;
@@ -228,11 +228,11 @@
     bottom: 0;
     width: 420px;
 }
-.imgs img{
+.footer__imgs img{
     width: 30px;
     height: 40px;
 }
-.selected{
+.imgs__selected{
     display: flex;
     flex-direction: column;
     align-items: center;

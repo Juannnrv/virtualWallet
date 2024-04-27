@@ -90,8 +90,8 @@ body{
     font-weight: 100;
     color: var(--color-1);
 }
-.assets h2,
-.assets p{
+.money__assets h2,
+.money__assets p{
     margin-left: 9px;
 }
 .article__money small{
@@ -100,8 +100,8 @@ body{
     font-weight: 100;
     color: var(--color-1);
 }
-.savings img,
-.assets img{
+.money__savings img,
+.money__assets img{
     width: 150px;
     height: 24px;
 }
@@ -121,15 +121,15 @@ body{
     margin-bottom: 10px;
     
 }
-.options {
+.article__options {
     display: flex;
     flex-direction: row;
     gap: 15px;
     overflow-x: scroll;
 }
-.account,
-.privacy,
-.help {
+.options__account,
+.options__privacy,
+.options__help {
     min-width: 111px;
     min-height: 140px;
     background: var(--color-1);
@@ -142,26 +142,26 @@ body{
     align-items: center;
     margin-bottom: 30px;
 }
-.account p,
-.privacy p,
-.help p{
+.options__account p,
+.options__privacy p,
+.options__help p{
     font-size: 15px;
     font-family: "SP SemiBold";
     font-weight: 100;
     color: var(--color-2);
 }
-.flows {
+.article__flows {
     overflow-y: scroll;
     height: 53vh;
 }
-.move {
+.flows__move {
     display: flex;
     flex-direction: column;
 }
-.left {
+.flows__move--left {
     display: flex;
     flex-direction: row;
-    padding: var(--space-layout-padding-main-down-left);
+    padding: var(--space-layout-padding-main-down-flows);
 }
 .info {
     display: flex;
@@ -169,20 +169,20 @@ body{
     margin-left: 10px;
 }
 .info h3,
-.right h3{
+.flows__move--right h3{
     width: 127px;
     font-size: 15px;
     font-family: "SP Bold";
     font-weight: 100;
 }
 .info small,
-.right small{
+.flows__move--right small{
     font-size: 11px;
     font-family: "SP Medium";
     font-weight: 100;
     opacity: 40%;
 }
-.right {
+.flows__move--right {
     display: flex;
     flex-direction: column;
     text-align: end;
@@ -190,7 +190,7 @@ body{
 }
 
 /* Footer */
-.imgs {
+.footer__imgs {
     background: var(--color-2);
     display: flex;
     flex-direction: row;
@@ -202,11 +202,11 @@ body{
     bottom: 0;
     width: 420px;
 }
-.imgs img{
+.footer__imgs img{
     width: 30px;
     height: 40px;
 }
-.selected{
+.imgs__selected{
     display: flex;
     flex-direction: column;
     align-items: center;
