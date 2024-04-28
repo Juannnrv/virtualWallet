@@ -120,7 +120,7 @@
 
 /* Main down */
 .main_down {
-    padding: var(--space-layout-padding-main-down);
+    padding: var(--space-layout-padding-cards-main-down);
     margin-bottom: 80px;
 }
 .article__cards {
@@ -132,8 +132,8 @@
     margin-bottom: 10px;
 }
 .cards__content1 {
-    min-width: 212px;
-    min-height: 311px;
+    min-width: 220px;
+    min-height: 331px;
     display: flex;
     flex-direction: column;
     background: var(--color-2);
@@ -171,8 +171,8 @@
     height: 30px;
 }
 .cards__content2 {
-    min-width: 212px;
-    min-height: 311px;
+    min-width: 220px;
+    min-height: 331px;
     display: flex;
     flex-direction: column;
     background: var(--color-2);
