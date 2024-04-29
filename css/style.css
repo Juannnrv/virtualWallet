@@ -112,6 +112,7 @@ body{
     background: var(--color-1);
     border-radius: 40px 40px 0 0;
     padding: var(--space-layout-padding-main-down);
+    margin-bottom: 80px;
 }
 .main__down h2{
     font-size: 22px;
