@@ -17,11 +17,11 @@
     justify-content: space-between;
 }
 #circle{
-    position: fixed;
-    top: -176px;
-    /* left: -127px; */
-    right: 500px;
-    border-radius: 0 0 800px 800px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 415px;
+    height: 250px;
     z-index: -1;
 }
 .header__left {
@@ -53,3 +53,128 @@
     height: 20px;
 }
 
+/* Main */
+.main {
+    position: relative;
+}
+/* Main_up */
+.main_up {
+    padding: var(--space-layout-padding-main-up)
+}
+.article_circle{
+    background: var(--color-3);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 80px 30px 90px;
+}
+.circle__info {
+    display: flex;	
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+    padding-top: 45px;
+}
+.circle__info h2{
+    font-size: 24px;
+    font-family: "SP Bold";
+    color: var(--color-1);
+}
+.article_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    margin: 0 8px 0 8px;
+}
+.options__Assets {
+    background: var(--color-2);
+    padding: 8px 20px;
+    border-radius: 60px;
+}
+.options__Assets h2{
+    font-size: 15px;
+    font-family: "SP Regular";
+    color: var(--color-1);
+}
+.options__Debt {
+    background: var(--color-1);
+    padding: 8px 20px;
+    border: 2px solid var(--color-3);
+    border-radius: 60px;
+}
+.options__Debt h2{
+    font-size: 15px;
+    font-family: "SP Regular";
+    color: var(--color-3);
+}
+.options__Income {
+    background: var(--color-1);
+    padding: 8px 20px;
+    border: 2px solid var(--color-4);
+    border-radius: 60px;
+}
+.options__Income h2{
+    font-size: 15px;
+    font-family: "SP Regular";
+    color: var(--color-4);
+}
+
+/* Main down */
+.main_down{
+}
+.main_down img{
+    margin-bottom: 20px;
+}
+.article__graphic {
+    padding: var(--space-layout-padding-balance-main-down);
+    display: flex;
+    flex-direction: column;
+}
+.graphic__days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+.graphic__days p{
+    font-size: 15px;
+    font-family: "SP Medium";
+    color: var(--color-2);
+    margin-bottom: 30px;
+}
+.article__spending {
+    display: flex;
+    flex-direction: row;
+    background: var(--color-5);
+    padding: 15px 15px 0 20px;
+}
+.spending__card img{
+    margin-top: 42px;
+    width: 104px;
+    height: 65px;
+}
+.spending__info {
+    margin: 42px 0 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.spending__info h2{
+    font-size: 20px;
+    font-family: "SP Bold";
+    color: var(--color-2);
+}
+.spending__info small {
+    width: 220px;
+    font-size: 13px;
+    font-family: "SP Regular";
+    color: var(--color-2);
+    opacity: 50%;
+}
+.spending__cancel img{
+    width: 32px;
+    height: 32px;
+}
+
+
+/* Footer */
