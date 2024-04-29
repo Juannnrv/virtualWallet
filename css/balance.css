@@ -56,6 +56,7 @@
 /* Main */
 .main {
     position: relative;
+    height: 88vh;
 }
 /* Main_up */
 .main_up {
@@ -178,3 +179,33 @@
 
 
 /* Footer */
+.footer__imgs {
+    background: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--space-layout-padding-footer);
+    position: fixed;
+    /* top: 722px; */
+    bottom: 0;
+    width: 420px;
+}
+.footer__imgs img{
+    width: 30px;
+    height: 40px;
+}
+.imgs__selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgs__selected img {
+    width: 30px;
+    height: 30px;
+}
+#puntico{
+    width: 8px;
+    height: 8px;
+    margin-top: 3.5px;
+}
