@@ -19,7 +19,7 @@
     --space-layout-padding-balance-main-down: 10px 34px 5px 31px;
 }
 
-/* Index */
+/* Figma fonts */
 @font-face {
     font-family: "SP Bold";
     src: url(../storage/font/SF-Pro-Text-Bold.otf);
@@ -48,4 +48,31 @@
 @font-face {
     font-family: "Roboto Bold";
     src: url(../storage/font/Roboto-Bold.ttf);
+}
+
+
+/* My fonts */
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url(../storage/font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins Black";
+    src: url(../storage/font/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: "Poppins Light";
+    src: url(../storage/font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(../storage/font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
 }
