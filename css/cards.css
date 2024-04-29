@@ -23,7 +23,7 @@
 .header__left h1 {
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     color: var(--color-2);
     display: flex;
     padding-left: 20px;
@@ -55,7 +55,7 @@
 .main_up h2,
 .main_down h2 {
     font-size: 22px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     color: var(--color-2);
     margin-bottom: 18px;
@@ -94,14 +94,14 @@
 }
 .Info h3 {
     font-size: 18px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     color: var(--color-2);
     margin-bottom: 5px;
 }
 .Info p{
     font-size: 14px;
-    font-family: "SP Regular";
+    font-family: "Poppins Regular";
     color: var(--color-2);
     opacity: 50%;
     margin-bottom: 10px;
@@ -114,7 +114,7 @@
     border-radius: 15px;
     color: var(--color-1);
     font-size: 10px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     text-decoration: none;
     padding: 9px 25px 9px 25px;
@@ -155,20 +155,20 @@
 }
 .content__info p{
     font-size: 12px;
-    font-family: "SP SemiBold";
+    font-family: "Poppins SemiBold";
     font-weight: 100;
     color: var(--color-1);
 }
 .cards__content1 h2{
     font-size: 24px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     color: var(--color-1);
     padding: 0 32px;
 }
 .cards__content1 small{
     font-size: 18px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     color: var(--color-1);
 }
@@ -195,20 +195,20 @@
 }
 .content__info p{
     font-size: 12px;
-    font-family: "SP SemiBold";
+    font-family: "Poppins SemiBold";
     font-weight: 100;
     color: var(--color-1);
 }
 .cards__content2 h2{
     font-size: 24px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     color: var(--color-1);
     padding: 0 32px;
 }
 .cards__content2 small{
     font-size: 18px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     color: var(--color-1);
 }

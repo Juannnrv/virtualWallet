@@ -1,9 +1,18 @@
 :root {
-    --color-1: #FFFACD;
-    --color-2: #CD5C5C; 
-    --color-3: #32CD32; 
-    --color-4: #D8BFD8;
-    --color-5: #FFFAF0; 
+
+    /* Figma Colors */
+    /* --color-1: white;
+    --color-2: #33404F;
+    --color-3: #00DDA3;
+    --color-4: #B5C5C3;
+    --color-5: #E1FFEF; */
+
+    /* My Colors */
+    --color-1: #F0F2F2;
+    --color-2: #014017;
+    --color-3: #95BFA4;
+    --color-4: #077336;
+    --color-5: #95BFA4; 
 
     /* Home */
     --space-layout-padding-header: 25px 20px;

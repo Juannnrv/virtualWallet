@@ -31,7 +31,7 @@ body{
 .header__left h1 {
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     color: var(--color-1);
     display: flex;
     padding-left: 20px;
@@ -63,13 +63,13 @@ body{
 }
 .article__information p{
     font-size: 35px;
-    font-family: "SP Heavy";
+    font-family: "Poppins Black";
     margin-bottom: 5px;
 }
 .article__information h4{
     font-size: 35px;
     font-weight: 500;
-    font-family: "SP Light";
+    font-family: "Poppins Light";
     margin-bottom: 28px;
 }
 .article__money {
@@ -79,7 +79,7 @@ body{
 }
 .article__money h2{
     font-size: 16px;
-    font-family: "SP Medium";
+    font-family: "Poppins Medium";
     font-weight: 100;
     color: var(--color-1);
     margin-bottom: 7px;
@@ -116,7 +116,7 @@ body{
 }
 .main__down h2{
     font-size: 22px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
     color: var(--color-2);
     margin-bottom: 10px;
@@ -147,7 +147,7 @@ body{
 .options__privacy p,
 .options__help p{
     font-size: 15px;
-    font-family: "SP SemiBold";
+    font-family: "Poppins SemiBold";
     font-weight: 100;
     color: var(--color-2);
 }
@@ -171,15 +171,15 @@ body{
 }
 .info h3,
 .flows__move--right h3{
-    width: 127px;
+    width: 130px;
     font-size: 15px;
-    font-family: "SP Bold";
+    font-family: "Poppins Bold";
     font-weight: 100;
 }
 .info small,
 .flows__move--right small{
     font-size: 11px;
-    font-family: "SP Medium";
+    font-family: "Poppins Medium";
     font-weight: 100;
     opacity: 40%;
 }
