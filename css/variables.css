@@ -12,9 +12,8 @@
     --color-2: #014017;
     --color-3: #95BFA4;
     --color-4: #077336;
-    --color-5: #95BFA4; 
-    --color-6: #00DDA3;
-    --color-7: #64EB7E;
+    --color-5: #00DDA3;
+    --color-6: #64EB7E;
 
     /* Home */
     --space-layout-padding-header: 0 20px 5px 20px;
@@ -24,7 +23,7 @@
     --space-layout-padding-footer: 15px 30px 10px 15px;
 
     /* Cards */
-    --space-layout-padding-cards-main-down: 40px 0px 5px 20px;
+    --space-layout-padding-cards-main-down: 5px 0px 5px 20px;
 
     /* Balance */
     --space-layout-padding-balance-main-down: 10px 34px 5px 31px;

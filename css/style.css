@@ -30,7 +30,7 @@ body{
 }
 .header__left h1 {
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-family: "Poppins Bold";
     color: var(--color-1);
     display: flex;
@@ -93,7 +93,7 @@ body{
 .money__available h2,
 .money__debt h2 {
     font-family: "Poppins Bold";
-    color: var(--color-7);
+    color: var(--color-6);
 }
 .money__debt h2,
 .money__debt p{
