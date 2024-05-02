@@ -9,7 +9,7 @@
 
 body{
     background: var(--color-2);
-    background-image: url(../storage/img/background.svg);
+    background-image: url(../storage/img/fondogreen.svg);
     background-repeat: no-repeat;
     object-fit: cover;
     z-index: -2;

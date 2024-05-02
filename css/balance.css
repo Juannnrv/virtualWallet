@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 /* Header */
 .header {
     padding: var(--space-layout-padding-header);
@@ -16,7 +15,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
-#circle{
+.header__circle {
     position: absolute;
     top: -30px;
     left: 0;
@@ -56,7 +55,7 @@
 /* Main */
 .main {
     position: relative;
-    height: 88vh;
+    height: 105vh;
 }
 /* Main_up */
 .main_up {
@@ -67,7 +66,8 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 0 80px 30px 90px;
+    margin: 0 80px 30px 80px;
+    transition: transform 0.5s ease;
 }
 .circle__info {
     display: flex;	
@@ -84,6 +84,9 @@
 .circle__info small {
     font-family: "Poppins Bold";
     color: var(--color-1);
+}
+.article_circle:hover {
+    transform: rotate(360deg);
 }
 .article_options {
     display: flex;
@@ -125,8 +128,6 @@
 }
 
 /* Main down */
-.main_down{
-}
 .main_down img{
     margin-bottom: 20px;
 }
@@ -134,24 +135,27 @@
     padding: var(--space-layout-padding-balance-main-down);
     display: flex;
     flex-direction: column;
+    background: var(--color-1);
+    padding: 10px 10px 0 10px;
+    border-radius: 20px;
+    margin: 0 20px 10px 20px;
 }
 .graphic__days {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 10px 0 10px;
+    margin: 10px;
 }
 .graphic__days p{
     font-size: 15px;
     font-family: "Poppins Medium";
     color: var(--color-2);
-    margin-bottom: 30px;
 }
 .article__spending {
     display: flex;
     flex-direction: row;
     background: var(--color-3);
-    padding: 15px 15px 0 20px;
+    padding: 15px 20px 0 5px;
 }
 .spending__card img{
     margin-top: 12px;

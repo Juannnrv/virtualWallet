@@ -49,8 +49,11 @@
 .main{
 }
 .main_up {
-    padding: var(--space-layout-padding-main-up);
     margin: 8px 0 2px 0;
+    padding: var(--space-layout-padding-cards-main-up);
+}
+.main_up h2 {
+    padding-left: 20px;
 }
 .main_up h2,
 .main_down h2 {
