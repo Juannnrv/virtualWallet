@@ -134,11 +134,20 @@ body{
     gap: 15px;
     overflow-x: scroll;
 }
+.article__options div {
+    transition: transform 0.3s ease;
+}
+.article__options div:hover,
+.article__options div:focus {
+    transform: scale(1.1);
+    background: var(--color-3);
+}
 .options__pay,
 .options__bill,
 .options__help,
 .options__safebox,
 .options__add {
+    transition-duration: 0.3s;
     min-width: 111px;
     min-height: 140px;
     background: var(--color-1);
